@@ -1,1 +1,20 @@
 /* Add your own CSS code below */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.countries--first {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.countries--second {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.countries--third {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
