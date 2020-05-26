@@ -5,16 +5,19 @@ body {
 }
 
 .countries--first {
+  display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
 }
 
 .countries--second {
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .countries--third {
+  display: flex;
   flex-direction: column-reverse;
   justify-content: flex-start;
 }
