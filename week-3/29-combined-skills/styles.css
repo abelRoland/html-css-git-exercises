@@ -1,1 +1,53 @@
 /* Add your own CSS code below */
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.heart {
+  color: #c85308;
+}
+
+.main-article {
+  max-width: 50em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-article p {
+  line-height: 2;
+}
+
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .views {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .views__title {
+    padding: 0 10px;
+  }
+  .view-list__item {
+    padding: 0 10px;
+  }
+
+  .views__all {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 3em;
+  }
+}
